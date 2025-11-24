@@ -2,18 +2,6 @@ import { BlogArticle } from '@/types';
 
 export const blogArticles: BlogArticle[] = [
     {
-        "id": 4,
-        "titleKey": "Alorsss",
-        "descriptionKey": "Alors Test",
-        "contentKey": "Alors Test",
-        "imageUrl": "https://via.placeholder.com/800x400",
-        "date": "11/24/2025",
-        "author": "Admin",
-        "readTimeKey": "5 min read",
-        "tagsKey": "Community",
-        "isHidden": false
-    },
-    {
         "id": 1,
         "imageUrl": "https://logik101.github.io/microF/b1.avif",
         "titleKey": "blogTitleAi",
