@@ -3,12 +3,12 @@ import { BlogArticle } from '@/types';
 export const blogArticles: BlogArticle[] = [
     {
         "id": 4,
-        "titleKey": "Test",
-        "descriptionKey": "Article test",
-        "contentKey": "Test",
+        "titleKey": "This is a test",
+        "descriptionKey": "This is a test",
+        "contentKey": "This is a test",
         "imageUrl": "https://via.placeholder.com/800x400",
-        "date": "11/29/2025",
-        "author": "Admin",
+        "date": "11/30/2025",
+        "author": "Ok ok",
         "readTimeKey": "5 min read",
         "tagsKey": "Community",
         "isHidden": false
