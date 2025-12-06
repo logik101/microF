@@ -1,4 +1,30 @@
-[
+import { BlogArticle } from '@/types';
+
+export const blogArticles: BlogArticle[] = [
+    {
+        "id": 5,
+        "titleKey": "sasas",
+        "descriptionKey": "sasas",
+        "contentKey": "sasas",
+        "imageUrl": "https://via.placeholder.com/800x400",
+        "date": "12/6/2025",
+        "author": "",
+        "readTimeKey": "5 min read",
+        "tagsKey": "Community",
+        "isHidden": true
+    },
+    {
+        "id": 4,
+        "titleKey": "Test test",
+        "descriptionKey": "Test test xxcxasas",
+        "contentKey": "Test test",
+        "imageUrl": "https://via.placeholder.com/800x400",
+        "date": "12/4/2025",
+        "author": "",
+        "readTimeKey": "5 min read",
+        "tagsKey": "Community",
+        "isHidden": true
+    },
     {
         "id": 1,
         "imageUrl": "https://logik101.github.io/microF/b1.avif",
@@ -29,4 +55,4 @@
         "date": "3/8/2025",
         "readTimeKey": "readTime1min"
     }
-]
+];
