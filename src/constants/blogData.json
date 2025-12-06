@@ -11,7 +11,7 @@ export const blogArticles: BlogArticle[] = [
         "author": "",
         "readTimeKey": "5 min read",
         "tagsKey": "Community",
-        "isHidden": true
+        "isHidden": false
     },
     {
         "id": 4,
