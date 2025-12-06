@@ -1,23 +1,37 @@
-[
+import { BlogArticle } from '@/types';
+
+export const blogArticles: BlogArticle[] = [
+    {
+        "id": 6,
+        "titleKey": "wq",
+        "descriptionKey": "wqw",
+        "contentKey": "wsdadsdsad",
+        "imageUrl": "https://via.placeholder.com/800x400",
+        "date": "12/6/2025",
+        "author": "w",
+        "readTimeKey": "5 min read",
+        "tagsKey": "Community",
+        "isHidden": true
+    },
     {
         "id": 5,
-        "titleKey": "sasas",
-        "descriptionKey": "sasas",
-        "contentKey": "sasas",
+        "titleKey": "qghfjgf",
+        "descriptionKey": "dsafsgdhhgfdas",
+        "contentKey": "dfsghfa",
         "imageUrl": "https://via.placeholder.com/800x400",
         "date": "12/6/2025",
         "author": "",
         "readTimeKey": "5 min read",
         "tagsKey": "Community",
-        "isHidden": false
+        "isHidden": true
     },
     {
         "id": 4,
-        "titleKey": "Test test",
-        "descriptionKey": "Test test xxcxasas",
-        "contentKey": "Test test",
+        "titleKey": "wqwqwqw",
+        "descriptionKey": "wqwqwq",
+        "contentKey": "qwqwqwq",
         "imageUrl": "https://via.placeholder.com/800x400",
-        "date": "12/4/2025",
+        "date": "12/6/2025",
         "author": "",
         "readTimeKey": "5 min read",
         "tagsKey": "Community",
@@ -53,4 +67,4 @@
         "date": "3/8/2025",
         "readTimeKey": "readTime1min"
     }
-]
+];
