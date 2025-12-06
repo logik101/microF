@@ -1,6 +1,4 @@
-import { BlogArticle } from '@/types';
-
-export const blogArticles: BlogArticle[] = [
+[
     {
         "id": 5,
         "titleKey": "sasas",
@@ -55,4 +53,4 @@ export const blogArticles: BlogArticle[] = [
         "date": "3/8/2025",
         "readTimeKey": "readTime1min"
     }
-];
+]
